@@ -56,6 +56,10 @@ int main(int argc,char* argv[]) {
             cout << "cut at " << num << endl;
         }
     }
+    if(bankroll <min_bet){
+        cout << "# Player has " << bankroll << " after " << "0" << " hands\n";
+        return 0;
+    }
     for(int i=1;i<=hands;i++){
         cout << "# Hand " << i << " bankroll " << bankroll << endl;
         if(deck.cardsLeft ()<20){
@@ -83,8 +87,8 @@ int main(int argc,char* argv[]) {
             player->expose (playercard2);
         }
         cout << "Player dealt " << SpotNames[playercard2.spot] << " of " << SuitNames[playercard2.suit] << endl;
-        Card dealercard2=deck.deal ();
-        dealer_hand.addCard (dealercard2);
+        Card dealer_holecard=deck.deal ();
+        dealer_hand.addCard (dealer_holecard);
         //cout << "Dealer dealt "<< SpotNames[dealercard2.spot] << " of " << SuitNames[dealercard2.suit] << endl;
         if(player_hand.handValue ().count==21){
             cout << "# Player dealt natural 21\n";
@@ -97,6 +101,7 @@ int main(int argc,char* argv[]) {
             if(!is_simple){
                 player->expose (tmp_playercard);
             }
+            cout << "Player dealt " << SpotNames[tmp_playercard.spot] << " of " << SuitNames[tmp_playercard.suit] << endl;
         }
         cout << "Player's total is " << player_hand.handValue ().count << endl;
         if(player_hand.handValue ().count>21){
@@ -104,7 +109,37 @@ int main(int argc,char* argv[]) {
             bankroll-=player->bet (bankroll,min_bet);
             continue;
         }
-        
+        cout << "Dealer's hole card is " << SpotNames[dealer_holecard.spot] << " of " << SuitNames[dealer_holecard.suit] << endl;
+        if(!is_simple){
+            player->expose (dealer_holecard);
+        }
+        while(dealer_hand.handValue ().count<17){
+            Card tmp_dealercard=deck.deal();
+            dealer_hand.addCard (tmp_dealercard);
+            if(!is_simple){
+                player->expose (tmp_dealercard);
+            }
+            cout << "Dealer dealt "<< SpotNames[tmp_dealercard.spot] << " of " << SuitNames[tmp_dealercard.suit] << endl;
+        }
+        cout << "Dealer's total is " << dealer_hand.handValue ().count << endl;
+        if(dealer_hand.handValue ().count>21){
+            cout << "# Dealer busts\n";
+            bankroll+=player->bet (bankroll,min_bet);
+            continue;
+        }
+        if(player_hand.handValue ().count>dealer_hand.handValue ().count){
+            cout << "# Player wins\n";
+            bankroll+=player->bet (bankroll,min_bet);
+        }else if(player_hand.handValue ().count<dealer_hand.handValue ().count){
+            cout << "# Dealer wins\n";
+            bankroll-=player->bet (bankroll,min_bet);
+        }else{
+            cout << "# Push\n";
+        }
+        if(bankroll <min_bet){
+            cout << "# Player has " << bankroll << " after " << i << " hands\n";
+            break;
+        }
     }
 
 
