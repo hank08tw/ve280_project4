@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ve280_project4.dir/p4.cpp.o"
+  "CMakeFiles/ve280_project4.dir/blackjack.cpp.o"
   "ve280_project4.pdb"
   "ve280_project4"
 )

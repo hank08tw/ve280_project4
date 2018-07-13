@@ -123,32 +123,32 @@ ve280_project4/fast:
 	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/build
 .PHONY : ve280_project4/fast
 
-p4.o: p4.cpp.o
+blackjack.o: blackjack.cpp.o
 
-.PHONY : p4.o
+.PHONY : blackjack.o
 
 # target to build an object file
-p4.cpp.o:
-	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/p4.cpp.o
-.PHONY : p4.cpp.o
+blackjack.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/blackjack.cpp.o
+.PHONY : blackjack.cpp.o
 
-p4.i: p4.cpp.i
+blackjack.i: blackjack.cpp.i
 
-.PHONY : p4.i
+.PHONY : blackjack.i
 
 # target to preprocess a source file
-p4.cpp.i:
-	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/p4.cpp.i
-.PHONY : p4.cpp.i
+blackjack.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/blackjack.cpp.i
+.PHONY : blackjack.cpp.i
 
-p4.s: p4.cpp.s
+blackjack.s: blackjack.cpp.s
 
-.PHONY : p4.s
+.PHONY : blackjack.s
 
 # target to generate assembly for a file
-p4.cpp.s:
-	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/p4.cpp.s
-.PHONY : p4.cpp.s
+blackjack.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/blackjack.cpp.s
+.PHONY : blackjack.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ve280_project4"
-	@echo "... p4.o"
-	@echo "... p4.i"
-	@echo "... p4.s"
+	@echo "... blackjack.o"
+	@echo "... blackjack.i"
+	@echo "... blackjack.s"
 .PHONY : help
 
 

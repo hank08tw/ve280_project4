@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/p4.cpp
+/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/blackjack.cpp
 iostream
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+string
+-
+cstdlib
+-
+cassert
 -
 

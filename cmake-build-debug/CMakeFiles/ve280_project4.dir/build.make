@@ -57,38 +57,38 @@ include CMakeFiles/ve280_project4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ve280_project4.dir/flags.make
 
-CMakeFiles/ve280_project4.dir/p4.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
-CMakeFiles/ve280_project4.dir/p4.cpp.o: ../p4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ve280_project4.dir/p4.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/p4.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/p4.cpp
+CMakeFiles/ve280_project4.dir/blackjack.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/blackjack.cpp.o: ../blackjack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ve280_project4.dir/blackjack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/blackjack.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/blackjack.cpp
 
-CMakeFiles/ve280_project4.dir/p4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/p4.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/p4.cpp > CMakeFiles/ve280_project4.dir/p4.cpp.i
+CMakeFiles/ve280_project4.dir/blackjack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/blackjack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/blackjack.cpp > CMakeFiles/ve280_project4.dir/blackjack.cpp.i
 
-CMakeFiles/ve280_project4.dir/p4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/p4.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/p4.cpp -o CMakeFiles/ve280_project4.dir/p4.cpp.s
+CMakeFiles/ve280_project4.dir/blackjack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/blackjack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/blackjack.cpp -o CMakeFiles/ve280_project4.dir/blackjack.cpp.s
 
-CMakeFiles/ve280_project4.dir/p4.cpp.o.requires:
+CMakeFiles/ve280_project4.dir/blackjack.cpp.o.requires:
 
-.PHONY : CMakeFiles/ve280_project4.dir/p4.cpp.o.requires
+.PHONY : CMakeFiles/ve280_project4.dir/blackjack.cpp.o.requires
 
-CMakeFiles/ve280_project4.dir/p4.cpp.o.provides: CMakeFiles/ve280_project4.dir/p4.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/p4.cpp.o.provides.build
-.PHONY : CMakeFiles/ve280_project4.dir/p4.cpp.o.provides
+CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides: CMakeFiles/ve280_project4.dir/blackjack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides
 
-CMakeFiles/ve280_project4.dir/p4.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/p4.cpp.o
+CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/blackjack.cpp.o
 
 
 # Object files for target ve280_project4
 ve280_project4_OBJECTS = \
-"CMakeFiles/ve280_project4.dir/p4.cpp.o"
+"CMakeFiles/ve280_project4.dir/blackjack.cpp.o"
 
 # External object files for target ve280_project4
 ve280_project4_EXTERNAL_OBJECTS =
 
-ve280_project4: CMakeFiles/ve280_project4.dir/p4.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/blackjack.cpp.o
 ve280_project4: CMakeFiles/ve280_project4.dir/build.make
 ve280_project4: CMakeFiles/ve280_project4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ve280_project4"
@@ -99,7 +99,7 @@ CMakeFiles/ve280_project4.dir/build: ve280_project4
 
 .PHONY : CMakeFiles/ve280_project4.dir/build
 
-CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/p4.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/blackjack.cpp.o.requires
 
 .PHONY : CMakeFiles/ve280_project4.dir/requires
 

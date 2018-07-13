@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/p4.cpp">
+		<Unit filename="/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/blackjack.cpp">
 			<Option target="ve280_project4"/>
 		</Unit>
 		<Unit filename="/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/CMakeLists.txt">
