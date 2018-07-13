@@ -36,3 +36,36 @@ public:
         }
     }
 };
+class counting_player : public Player{
+    int count;
+public:
+    counting_player(){
+        count=0;
+    }
+    int bet(unsigned int bankroll, unsigned int minimum){
+        if(count>=2&&bankroll>=2*minimum){
+            return 2*minimum;
+        }
+        return minimum;
+    }
+    void expose(Card c){
+        if(c.spot<=12&&c.spot>=8){
+            count--;
+        }else if(0<=c.spot&&c.spot<=4){
+            count++;
+        }
+    }
+    void shuffled(){
+        count=0;
+    }
+};
+
+extern Player *get_Simple(){
+    simple_player* simplePlayer=new simple_player;
+    return simplePlayer;
+}
+
+extern Player *get_Counting(){
+    counting_player* countingPlayer=new counting_player;
+    return countingPlayer;
+}

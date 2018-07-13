@@ -9,9 +9,104 @@
 #include "deck.h"
 #include "hand.h"
 #include "player.h"
+#include "player.cpp"
 #include "rand.h"
 using namespace std;
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main(int argc,char* argv[]) {
+    Player* player;
+    Hand player_hand;
+    Hand dealer_hand;
+    Deck deck;
+    unsigned int bankroll;
+    unsigned int min_bet;
+    int hands;
+    bool is_simple;
+    bankroll=(unsigned int)atoi(argv[1]);
+    min_bet=(unsigned int)atoi(argv[2]);
+    hands=atoi(argv[3]);
+    if(strcmp(argv[4],"simple")){
+        is_simple=true;
+        simple_player* simplePlayer=new simple_player;
+        player=simplePlayer;
+    }else{
+        is_simple=false;
+        counting_player* countingPlayer=new counting_player;
+        player=countingPlayer;
+    }
+    if(argc>=6){
+        ifstream iFile;
+        iFile.open(argv[5]);
+        string input;
+        getline (iFile,input);
+        istringstream istream;
+        istream.str(input);
+        while(istream){
+            int tmp_shuffle;
+            istream >> tmp_shuffle;
+            deck.shuffle (tmp_shuffle);
+            cout << "# Shuffling the deck\n";
+            cout << "cut at " << tmp_shuffle << endl;
+        }
+        iFile.close ();
+    }else{
+        for(int i=0;i<7;i++){
+            int num=get_cut ();
+            deck.shuffle (num);
+            cout << "# Shuffling the deck\n";
+            cout << "cut at " << num << endl;
+        }
+    }
+    for(int i=1;i<=hands;i++){
+        cout << "# Hand " << i << " bankroll " << bankroll << endl;
+        if(deck.cardsLeft ()<20){
+            deck.shuffle(get_cut ());
+            if(!is_simple){
+                player->shuffled ();
+            }
+        }
+        cout << "# Player bets " << player->bet (bankroll,min_bet) << endl;
+        Card playercard1=deck.deal ();
+        player_hand.addCard (playercard1);
+        if(!is_simple){
+            player->expose (playercard1);
+        }
+        cout << "Player dealt " << SpotNames[playercard1.spot] << " of " << SuitNames[playercard1.suit] << endl;
+        Card dealercard1=deck.deal ();
+        dealer_hand.addCard (dealercard1);
+        if(!is_simple){
+            player->expose (dealercard1);
+        }
+        cout << "Dealer dealt "<< SpotNames[dealercard1.spot] << " of " << SuitNames[dealercard1.suit] << endl;
+        Card playercard2=deck.deal ();
+        player_hand.addCard (playercard2);
+        if(!is_simple){
+            player->expose (playercard2);
+        }
+        cout << "Player dealt " << SpotNames[playercard2.spot] << " of " << SuitNames[playercard2.suit] << endl;
+        Card dealercard2=deck.deal ();
+        dealer_hand.addCard (dealercard2);
+        //cout << "Dealer dealt "<< SpotNames[dealercard2.spot] << " of " << SuitNames[dealercard2.suit] << endl;
+        if(player_hand.handValue ().count==21){
+            cout << "# Player dealt natural 21\n";
+            bankroll+=(3*player->bet (bankroll,min_bet)/2);
+            continue;
+        }
+        while(player_hand.handValue ().count<=21 && player->draw (dealercard1,player_hand)){
+            Card tmp_playercard=deck.deal ();
+            player_hand.addCard (tmp_playercard);
+            if(!is_simple){
+                player->expose (tmp_playercard);
+            }
+        }
+        cout << "Player's total is " << player_hand.handValue ().count << endl;
+        if(player_hand.handValue ().count>21){
+            cout << "# Player busts\n";
+            bankroll-=player->bet (bankroll,min_bet);
+            continue;
+        }
+        
+    }
+
+
     return 0;
 }
