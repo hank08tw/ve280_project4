@@ -39,6 +39,7 @@ int main(int argc,char* argv[]) {
         while(istream){
             int tmp_shuffle;
             istream >> tmp_shuffle;
+            if(!istream)break;
             deck.shuffle (tmp_shuffle);
             cout << "cut at " << tmp_shuffle << endl;
         }

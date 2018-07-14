@@ -12,27 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2e4584-fbc4-45d8-a493-5f2c82222bc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/blackjack.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/blackjack.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ve280_project4" afterPath="$PROJECT_DIR$/cmake-build-debug/ve280_project4" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sample.out" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blackjack" afterPath="$PROJECT_DIR$/blackjack" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blackjack.cpp" afterPath="$PROJECT_DIR$/blackjack.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ve280_project4.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/ve280_project4.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ve280_project4.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deck.cpp" afterPath="$PROJECT_DIR$/deck.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hand.cpp" afterPath="$PROJECT_DIR$/hand.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hand.h" afterPath="$PROJECT_DIR$/hand.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/player.cpp" afterPath="$PROJECT_DIR$/player.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +40,8 @@
       <file leaf-file-name="blackjack.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blackjack.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="145" column="68" lean-forward="false" selection-start-line="145" selection-start-column="68" selection-end-line="145" selection-end-column="68" />
+            <state relative-caret-position="-183">
+              <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -241,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531229217425</updated>
-      <workItem from="1531229219142" duration="29430000" />
+      <workItem from="1531229219142" duration="30031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29430000" />
+    <option name="totallyTimeSpent" value="30031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -415,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blackjack.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="145" column="68" lean-forward="false" selection-start-line="145" selection-start-column="68" selection-end-line="145" selection-end-column="68" />
+        <state relative-caret-position="-183">
+          <caret line="102" column="17" lean-forward="false" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
