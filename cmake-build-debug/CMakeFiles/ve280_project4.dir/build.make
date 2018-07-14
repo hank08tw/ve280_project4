@@ -81,17 +81,147 @@ CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides: CMakeFiles/ve280_project
 CMakeFiles/ve280_project4.dir/blackjack.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/blackjack.cpp.o
 
 
+CMakeFiles/ve280_project4.dir/hand.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/hand.cpp.o: ../hand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ve280_project4.dir/hand.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/hand.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/hand.cpp
+
+CMakeFiles/ve280_project4.dir/hand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/hand.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/hand.cpp > CMakeFiles/ve280_project4.dir/hand.cpp.i
+
+CMakeFiles/ve280_project4.dir/hand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/hand.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/hand.cpp -o CMakeFiles/ve280_project4.dir/hand.cpp.s
+
+CMakeFiles/ve280_project4.dir/hand.cpp.o.requires:
+
+.PHONY : CMakeFiles/ve280_project4.dir/hand.cpp.o.requires
+
+CMakeFiles/ve280_project4.dir/hand.cpp.o.provides: CMakeFiles/ve280_project4.dir/hand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/hand.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/hand.cpp.o.provides
+
+CMakeFiles/ve280_project4.dir/hand.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/hand.cpp.o
+
+
+CMakeFiles/ve280_project4.dir/player.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/player.cpp.o: ../player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ve280_project4.dir/player.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/player.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/player.cpp
+
+CMakeFiles/ve280_project4.dir/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/player.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/player.cpp > CMakeFiles/ve280_project4.dir/player.cpp.i
+
+CMakeFiles/ve280_project4.dir/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/player.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/player.cpp -o CMakeFiles/ve280_project4.dir/player.cpp.s
+
+CMakeFiles/ve280_project4.dir/player.cpp.o.requires:
+
+.PHONY : CMakeFiles/ve280_project4.dir/player.cpp.o.requires
+
+CMakeFiles/ve280_project4.dir/player.cpp.o.provides: CMakeFiles/ve280_project4.dir/player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/player.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/player.cpp.o.provides
+
+CMakeFiles/ve280_project4.dir/player.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/player.cpp.o
+
+
+CMakeFiles/ve280_project4.dir/deck.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/deck.cpp.o: ../deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ve280_project4.dir/deck.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/deck.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/deck.cpp
+
+CMakeFiles/ve280_project4.dir/deck.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/deck.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/deck.cpp > CMakeFiles/ve280_project4.dir/deck.cpp.i
+
+CMakeFiles/ve280_project4.dir/deck.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/deck.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/deck.cpp -o CMakeFiles/ve280_project4.dir/deck.cpp.s
+
+CMakeFiles/ve280_project4.dir/deck.cpp.o.requires:
+
+.PHONY : CMakeFiles/ve280_project4.dir/deck.cpp.o.requires
+
+CMakeFiles/ve280_project4.dir/deck.cpp.o.provides: CMakeFiles/ve280_project4.dir/deck.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/deck.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/deck.cpp.o.provides
+
+CMakeFiles/ve280_project4.dir/deck.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/deck.cpp.o
+
+
+CMakeFiles/ve280_project4.dir/card.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/card.cpp.o: ../card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ve280_project4.dir/card.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/card.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/card.cpp
+
+CMakeFiles/ve280_project4.dir/card.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/card.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/card.cpp > CMakeFiles/ve280_project4.dir/card.cpp.i
+
+CMakeFiles/ve280_project4.dir/card.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/card.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/card.cpp -o CMakeFiles/ve280_project4.dir/card.cpp.s
+
+CMakeFiles/ve280_project4.dir/card.cpp.o.requires:
+
+.PHONY : CMakeFiles/ve280_project4.dir/card.cpp.o.requires
+
+CMakeFiles/ve280_project4.dir/card.cpp.o.provides: CMakeFiles/ve280_project4.dir/card.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/card.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/card.cpp.o.provides
+
+CMakeFiles/ve280_project4.dir/card.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/card.cpp.o
+
+
+CMakeFiles/ve280_project4.dir/rand.cpp.o: CMakeFiles/ve280_project4.dir/flags.make
+CMakeFiles/ve280_project4.dir/rand.cpp.o: ../rand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ve280_project4.dir/rand.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ve280_project4.dir/rand.cpp.o -c /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/rand.cpp
+
+CMakeFiles/ve280_project4.dir/rand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ve280_project4.dir/rand.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/rand.cpp > CMakeFiles/ve280_project4.dir/rand.cpp.i
+
+CMakeFiles/ve280_project4.dir/rand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ve280_project4.dir/rand.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/rand.cpp -o CMakeFiles/ve280_project4.dir/rand.cpp.s
+
+CMakeFiles/ve280_project4.dir/rand.cpp.o.requires:
+
+.PHONY : CMakeFiles/ve280_project4.dir/rand.cpp.o.requires
+
+CMakeFiles/ve280_project4.dir/rand.cpp.o.provides: CMakeFiles/ve280_project4.dir/rand.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/rand.cpp.o.provides.build
+.PHONY : CMakeFiles/ve280_project4.dir/rand.cpp.o.provides
+
+CMakeFiles/ve280_project4.dir/rand.cpp.o.provides.build: CMakeFiles/ve280_project4.dir/rand.cpp.o
+
+
 # Object files for target ve280_project4
 ve280_project4_OBJECTS = \
-"CMakeFiles/ve280_project4.dir/blackjack.cpp.o"
+"CMakeFiles/ve280_project4.dir/blackjack.cpp.o" \
+"CMakeFiles/ve280_project4.dir/hand.cpp.o" \
+"CMakeFiles/ve280_project4.dir/player.cpp.o" \
+"CMakeFiles/ve280_project4.dir/deck.cpp.o" \
+"CMakeFiles/ve280_project4.dir/card.cpp.o" \
+"CMakeFiles/ve280_project4.dir/rand.cpp.o"
 
 # External object files for target ve280_project4
 ve280_project4_EXTERNAL_OBJECTS =
 
 ve280_project4: CMakeFiles/ve280_project4.dir/blackjack.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/hand.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/player.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/deck.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/card.cpp.o
+ve280_project4: CMakeFiles/ve280_project4.dir/rand.cpp.o
 ve280_project4: CMakeFiles/ve280_project4.dir/build.make
 ve280_project4: CMakeFiles/ve280_project4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ve280_project4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ve280_project4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ve280_project4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +230,11 @@ CMakeFiles/ve280_project4.dir/build: ve280_project4
 .PHONY : CMakeFiles/ve280_project4.dir/build
 
 CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/blackjack.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/hand.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/player.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/deck.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/card.cpp.o.requires
+CMakeFiles/ve280_project4.dir/requires: CMakeFiles/ve280_project4.dir/rand.cpp.o.requires
 
 .PHONY : CMakeFiles/ve280_project4.dir/requires
 

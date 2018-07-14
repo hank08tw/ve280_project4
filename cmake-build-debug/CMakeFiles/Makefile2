@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280
 CMakeFiles/ve280_project4.dir/all:
 	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/depend
 	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ve280_project4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ve280_project4"
 .PHONY : CMakeFiles/ve280_project4.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/ve280_project4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ve280_project4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ve280_project4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hank08tw/Desktop/2018夏季學期/VE280/project4/ve280_project4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ve280_project4.dir/rule

@@ -13,7 +13,7 @@ class Hand {
     // Note: this really is the only private state you need!
     HandValue curValue;
  public:
-    Hand(); 
+    Hand();
     // EFFECTS: establishes an empty blackjack hand.
     
     void discardAll();

@@ -31,11 +31,15 @@ void Deck::shuffle(int n) {
             tmp_deck[i++]=deck[rightstart++];
         }
     }
+    for(int j=0;j<DeckSize;j++){
+        deck[j]=tmp_deck[j];
+    }
 }
 
 Card Deck::deal() {
     if(cardsLeft ()==0){
-        throw DeckEmpty;
+        DeckEmpty deckEmpty;
+        throw deckEmpty;
     }
     return deck[next++];
 }

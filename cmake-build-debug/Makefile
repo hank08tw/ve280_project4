@@ -150,6 +150,141 @@ blackjack.cpp.s:
 	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/blackjack.cpp.s
 .PHONY : blackjack.cpp.s
 
+card.o: card.cpp.o
+
+.PHONY : card.o
+
+# target to build an object file
+card.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/card.cpp.o
+.PHONY : card.cpp.o
+
+card.i: card.cpp.i
+
+.PHONY : card.i
+
+# target to preprocess a source file
+card.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/card.cpp.i
+.PHONY : card.cpp.i
+
+card.s: card.cpp.s
+
+.PHONY : card.s
+
+# target to generate assembly for a file
+card.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/card.cpp.s
+.PHONY : card.cpp.s
+
+deck.o: deck.cpp.o
+
+.PHONY : deck.o
+
+# target to build an object file
+deck.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/deck.cpp.o
+.PHONY : deck.cpp.o
+
+deck.i: deck.cpp.i
+
+.PHONY : deck.i
+
+# target to preprocess a source file
+deck.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/deck.cpp.i
+.PHONY : deck.cpp.i
+
+deck.s: deck.cpp.s
+
+.PHONY : deck.s
+
+# target to generate assembly for a file
+deck.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/deck.cpp.s
+.PHONY : deck.cpp.s
+
+hand.o: hand.cpp.o
+
+.PHONY : hand.o
+
+# target to build an object file
+hand.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/hand.cpp.o
+.PHONY : hand.cpp.o
+
+hand.i: hand.cpp.i
+
+.PHONY : hand.i
+
+# target to preprocess a source file
+hand.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/hand.cpp.i
+.PHONY : hand.cpp.i
+
+hand.s: hand.cpp.s
+
+.PHONY : hand.s
+
+# target to generate assembly for a file
+hand.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/hand.cpp.s
+.PHONY : hand.cpp.s
+
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/player.cpp.s
+.PHONY : player.cpp.s
+
+rand.o: rand.cpp.o
+
+.PHONY : rand.o
+
+# target to build an object file
+rand.cpp.o:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/rand.cpp.o
+.PHONY : rand.cpp.o
+
+rand.i: rand.cpp.i
+
+.PHONY : rand.i
+
+# target to preprocess a source file
+rand.cpp.i:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/rand.cpp.i
+.PHONY : rand.cpp.i
+
+rand.s: rand.cpp.s
+
+.PHONY : rand.s
+
+# target to generate assembly for a file
+rand.cpp.s:
+	$(MAKE) -f CMakeFiles/ve280_project4.dir/build.make CMakeFiles/ve280_project4.dir/rand.cpp.s
+.PHONY : rand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +297,21 @@ help:
 	@echo "... blackjack.o"
 	@echo "... blackjack.i"
 	@echo "... blackjack.s"
+	@echo "... card.o"
+	@echo "... card.i"
+	@echo "... card.s"
+	@echo "... deck.o"
+	@echo "... deck.i"
+	@echo "... deck.s"
+	@echo "... hand.o"
+	@echo "... hand.i"
+	@echo "... hand.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
+	@echo "... rand.o"
+	@echo "... rand.i"
+	@echo "... rand.s"
 .PHONY : help
 
 
