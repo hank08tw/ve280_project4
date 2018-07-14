@@ -51,6 +51,7 @@ int main(int argc,char* argv[]) {
             cout << "cut at " << num << endl;
         }
     }
+    player->shuffled ();
     if(bankroll <min_bet){
         cout << "# Player has " << bankroll << " after 0 hands\n";
         return 0;
