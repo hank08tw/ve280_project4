@@ -15,21 +15,18 @@ void Deck::reset() {
 
 void Deck::shuffle(int n) {
     Card tmp_deck[DeckSize];
-    int leftstart=0;
-    int rightstart=n;
+    int left_start=0;
+    int right_start=n;
     int i=0;
-    while(leftstart<n&&rightstart<DeckSize){
-        tmp_deck[i++]=deck[rightstart++];
-        tmp_deck[i++]=deck[leftstart++];
+    while(left_start<n&&right_start<DeckSize){
+        tmp_deck[i++]=deck[right_start++];
+        tmp_deck[i++]=deck[left_start++];
     }
-    if(leftstart<n){
-        while(leftstart<n){
-            tmp_deck[i++]=deck[leftstart++];
-        }
-    }else{
-        while(rightstart<DeckSize){
-            tmp_deck[i++]=deck[rightstart++];
-        }
+    while(left_start<n){
+        tmp_deck[i++]=deck[left_start++];
+    }
+    while(right_start<DeckSize){
+        tmp_deck[i++]=deck[right_start++];
     }
     for(int j=0;j<DeckSize;j++){
         deck[j]=tmp_deck[j];

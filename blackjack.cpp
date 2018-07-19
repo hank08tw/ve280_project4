@@ -5,6 +5,8 @@
 #include <string>
 #include <cstdlib>
 #include <cassert>
+#include <string.h>
+#include <cstring>
 #include "card.h"
 #include "deck.h"
 #include "hand.h"
@@ -17,11 +19,11 @@ int main(int argc,char* argv[]) {
     unsigned int bankroll;
     unsigned int min_bet;
     int hands;
-    bool is_simple;
+    bool is_simple=false;
     bankroll=(unsigned int)atoi(argv[1]);
     min_bet=(unsigned int)atoi(argv[2]);
     hands=atoi(argv[3]);
-    if(strcmp(argv[4],"simple")){
+    if(argv[4]=="simple"){
         is_simple=true;
         player=get_Simple ();
     }else{
@@ -57,9 +59,11 @@ int main(int argc,char* argv[]) {
         return 0;
     }
     bool lose=false;
+    Hand player_hand=Hand();
+    Hand dealer_hand=Hand();
     for(int i=1;i<=hands;i++) {
-        Hand player_hand;
-        Hand dealer_hand;
+        player_hand.discardAll ();
+        dealer_hand.discardAll ();
         cout << "# Hand " << i << " bankroll " << bankroll << endl;
         if (deck.cardsLeft () < 20) {
             deck.shuffle (get_cut ());
@@ -144,9 +148,10 @@ int main(int argc,char* argv[]) {
             break;
         }
     }
+
     if(!lose){
         cout << "# Player has " << bankroll << " after " << hands << " hands\n";
-        lose=true;
     }
+
     return 0;
 }

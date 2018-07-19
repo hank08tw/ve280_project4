@@ -7,36 +7,34 @@ public:
         return minimum;
     }
     bool draw(Card dealer,const Hand &player) {
-        if(player.handValue ().soft){//!player.handValue ().soft
+        if(!player.handValue ().soft){
             if(player.handValue ().count<=11){
                 return true;
-            }else if(player.handValue ().count==12){
+            }
+            if(player.handValue ().count==12){
                 if(dealer.spot==FOUR||dealer.spot==FIVE||dealer.spot==SIX){
                     return false;
                 }
                 return true;
-            }else if(player.handValue ().count>=13&&player.handValue ().count<=16){
-                if(0<=dealer.spot&&dealer.spot<=4){
+            }
+            if(player.handValue ().count>=13&&player.handValue ().count<=16){
+                if(TWO<=dealer.spot&&dealer.spot<=SIX){
                     return false;
                 }
                 return true;
-            }else{
-                return false;
             }
-        }else{
-
-            if(player.handValue ().count<=17){
-                return true;
-            }else if(player.handValue ().count==18){
-                if(dealer.spot==TWO||dealer.spot==SEVEN||dealer.spot==EIGHT){
-                    return false;
-                }
-                return true;
-            }else{
-                return false;
-            }
-
+            return false;
         }
+        if(player.handValue ().count<=17){
+            return true;
+        }
+        if(player.handValue ().count==18){
+            if(dealer.spot==TWO||dealer.spot==SEVEN||dealer.spot==EIGHT){
+                return false;
+            }
+            return true;
+        }
+        return false;
     }
     void expose(Card c){}
     void shuffled(){}
@@ -59,38 +57,36 @@ public:
         if(!player.handValue ().soft){
             if(player.handValue ().count<=11){
                 return true;
-            }else if(player.handValue ().count==12){
+            }
+            if(player.handValue ().count==12){
                 if(dealer.spot==FOUR||dealer.spot==FIVE||dealer.spot==SIX){
                     return false;
                 }
                 return true;
-            }else if(player.handValue ().count>=13&&player.handValue ().count<=16){
-                if(0<=dealer.spot&&dealer.spot<=4){
+            }
+            if(player.handValue ().count>=13&&player.handValue ().count<=16){
+                if(TWO<=dealer.spot&&dealer.spot<=SIX){
                     return false;
                 }
                 return true;
-            }else{
-                return false;
             }
-        }else{
-            if(player.handValue ().count<=17){
-                return true;
-            }else if(player.handValue ().count==18){
-                if(dealer.spot==TWO||dealer.spot==SEVEN||dealer.spot==EIGHT){
-                    return false;
-                }
-                return true;
-            }else{
-                return false;
-            }
+            return false;
         }
-        //return true;
+        if(player.handValue ().count<=17){
+            return true;
+        }
+        if(player.handValue ().count==18){
+            if(dealer.spot==TWO||dealer.spot==SEVEN||dealer.spot==EIGHT){
+                return false;
+            }
+            return true;
+        }
+        return false;
     }
-
     void expose(Card c){
-        if(c.spot<=12&&c.spot>=8){
+        if(c.spot<=ACE&&c.spot>=TEN){
             count--;
-        }else if(0<=c.spot&&c.spot<=4){
+        }else if(TWO<=c.spot&&c.spot<=SIX){
             count++;
         }
     }
