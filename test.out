@@ -1,40 +1,40 @@
 # Shuffling the deck
+cut at 15
+cut at 20
 cut at 39
 cut at 22
-cut at 33
-cut at 37
 cut at 38
-cut at 37
-cut at 38
+cut at 13
+cut at 27
+cut at 30
 # Hand 1 bankroll 100
 # Player bets 5
-Player dealt King of Spades
-Dealer dealt Three of Diamonds
-Player dealt Six of Diamonds
-Player's total is 16
-Dealer's hole card is Four of Spades
-Dealer dealt Ten of Hearts
-Dealer's total is 17
-# Dealer wins
-# Hand 2 bankroll 95
-# Player bets 5
-Player dealt King of Hearts
-Dealer dealt Ace of Clubs
-Player dealt Seven of Hearts
+Player dealt Seven of Spades
+Dealer dealt Five of Diamonds
+Player dealt Ace of Hearts
+Player dealt Nine of Diamonds
 Player's total is 17
-Dealer's hole card is Three of Clubs
-Dealer dealt Jack of Spades
-Dealer dealt Eight of Diamonds
-Dealer's total is 22
+Dealer's hole card is Four of Clubs
+Dealer dealt Five of Clubs
+Dealer dealt Two of Hearts
+Dealer dealt Ten of Clubs
+Dealer's total is 26
 # Dealer busts
-# Hand 3 bankroll 100
-# Player bets 5
+# Hand 2 bankroll 105
+# Player bets 10
 Player dealt Eight of Clubs
 Dealer dealt Two of Spades
-Player dealt Nine of Spades
-Player's total is 17
-Dealer's hole card is Jack of Hearts
-Dealer dealt Ten of Diamonds
-Dealer's total is 22
+Player dealt Jack of Clubs
+Player's total is 18
+Dealer's hole card is Queen of Clubs
+Dealer dealt Three of Spades
+Dealer dealt Eight of Hearts
+Dealer's total is 23
 # Dealer busts
-# Player has 105 after 3 hands
+# Hand 3 bankroll 115
+# Player bets 10
+Player dealt Ace of Clubs
+Dealer dealt King of Diamonds
+Player dealt Ten of Hearts
+# Player dealt natural 21
+# Player has 130 after 3 hands
