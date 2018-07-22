@@ -14,6 +14,7 @@ void Deck::reset() {
 }
 
 void Deck::shuffle(int n) {
+    next=0;
     Card tmp_deck[DeckSize];
     int left_start=0;
     int right_start=n;
